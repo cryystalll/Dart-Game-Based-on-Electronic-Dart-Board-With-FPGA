@@ -61,8 +61,8 @@ Top module 用於製作不同的 clock、FPGA 板上按鈕的 debounce 與 onepu
 我們將每個 player 的分數與任何操作獨立出來，因此在傳入此 module 的 input 有
 player 這個 signal，並且在 top module 中會使用兩個 dartboard module，完成比較有
 系統性的架構。
-Dartboard module 實作中，總共有五個 state，分別為：WAIT、CNT、HOLD、
-SWITCH、FINISH。
+Dartboard module 實作中，總共有五個 state，
+分別為：WAIT、CNT、HOLD、SWITCH、FINISH。
 ```
 
 * (3) State Specification
